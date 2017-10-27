@@ -50,13 +50,17 @@
     "redux-responsive": "^4.3.2",
     "redux-thunk": "^2.2.0",
     "seamless-immutable": "^7.1.2",
-    "source-map-explorer": "^1.4.0"
+    "source-map-explorer": "^1.4.0",
+    "snyk": "^1.46.0"
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --collectCoverageFrom=src/store/**/*js --collectCoverageFrom=!src/store/*js",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
