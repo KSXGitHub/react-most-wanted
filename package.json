@@ -51,7 +51,7 @@
     "redux-thunk": "^2.2.0",
     "seamless-immutable": "^7.1.2",
     "source-map-explorer": "^1.4.0",
-    "snyk": "^1.46.0"
+    "snyk": "^1.49.2"
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
