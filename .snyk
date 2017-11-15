@@ -6,3 +6,9 @@ patch:
   'npm:marked:20170907':
     - marked:
         patched: '2017-10-27T07:04:05.883Z'
+  'npm:hawk:20160119':
+    - material-ui-superselectfield > codecov.io > request > hawk:
+        patched: '2017-11-15T07:04:07.424Z'
+  'npm:request:20160119':
+    - material-ui-superselectfield > codecov.io > request:
+        patched: '2017-11-15T07:04:07.424Z'
