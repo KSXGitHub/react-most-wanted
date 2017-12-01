@@ -12,3 +12,6 @@ patch:
   'npm:request:20160119':
     - material-ui-superselectfield > codecov.io > request:
         patched: '2017-11-15T07:04:07.424Z'
+  'npm:moment:20170905':
+    - chart.js > moment:
+        patched: '2017-12-01T07:04:19.605Z'
